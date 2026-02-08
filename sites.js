@@ -9,5 +9,7 @@ window.MAIN_CONTENT = {
   "HIDE_LANDING_VIDEO_SECTION": false,
   "URL_REWRITING": true,
   "DEFAULT_LANGUAGE": "vn",
-  "CONTENT" : null
+  "CONTENT" : {
+    "test" : false
+  }
 }; 
