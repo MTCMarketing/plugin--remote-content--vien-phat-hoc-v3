@@ -1,1 +1,2 @@
-testing 123
+// UPDATED FROM CURL
+console.log("hello from supabase edge");
