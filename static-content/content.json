@@ -55,8 +55,8 @@
             ]
         },
         "footerContent": {
-            "titleDesktop": "VIỆN PHẬT HỌC BỒ ĐỀ PHẬT QUỐC",
-            "titleMobile": "VIỆN PHẬT HỌC\nBỒ ĐỀ PHẬT QUỐC",
+            "titleDesktop": "VIỆN PHẬT HỌC BỒ ĐỀ PHẬT QUỐC2",
+            "titleMobile": "VIỆN PHẬT HỌC\nBỒ ĐỀ PHẬT QUỐC2",
             "backgroundImage": "https://ik.imagekit.io/dloitl7fd8/ChatGPT%20Image%20Jan%209,%202026,%2004_37_51%20PM.png",
             "logoImage": "https://ik.imagekit.io/dloitl7fd8/image%2015.png?updatedAt=1767960134367",
             "logoAlt": "Sakya Buddha University",
@@ -490,7 +490,7 @@
         },
         "page2": {
             "header": {
-                "title": "VIỆN PHẬT HỌC BỒ ĐỀ PHẬT QUỐC",
+                "title": "VIỆN PHẬT HỌC BỒ ĐỀ PHẬT QUỐC2",
                 "mobileTitle": "Về SBU",
                 "subtitle": "",
                 "backgroundImage": "https://ik.imagekit.io/dloitl7fd8/Desktop%20-%202.png",
@@ -737,7 +737,7 @@
         },
         "page4": {
             "header": {
-                "title": "VIỆN PHẬT HỌC BỒ ĐỀ PHẬT QUỐC",
+                "title": "VIỆN PHẬT HỌC BỒ ĐỀ PHẬT QUỐC2",
                 "mobileTitle": "CHƯƠNG TRÌNH\nSƠ TRUNG ĐẲNG",
                 "subtitle": "",
                 "backgroundImage": "https://ik.imagekit.io/dloitl7fd8/Desktop%20-%201%20(1).png?updatedAt=1766088914491",
@@ -1000,7 +1000,7 @@
         },
         "page5": {
             "header": {
-                "title": "VIỆN PHẬT HỌC BỒ ĐỀ PHẬT QUỐC",
+                "title": "VIỆN PHẬT HỌC BỒ ĐỀ PHẬT QUỐC2",
                 "mobileTitle": "CHƯƠNG TRÌNH\nCAO ĐẲNG",
                 "subtitle": "",
                 "backgroundImage": "https://ik.imagekit.io/dloitl7fd8/Desktop%20-%201%20(2).png",
@@ -1209,7 +1209,7 @@
         },
         "page6": {
             "header": {
-                "title": "VIỆN PHẬT HỌC BỒ ĐỀ PHẬT QUỐC",
+                "title": "VIỆN PHẬT HỌC BỒ ĐỀ PHẬT QUỐC2",
                 "mobileTitle": "CHUYÊN KHOA\nA TỲ ĐÀM",
                 "subtitle": "",
                 "backgroundImage": "https://ik.imagekit.io/dloitl7fd8/Desktop%20-%201%20(3).png?updatedAt=1766101380184",
@@ -1362,5 +1362,5 @@
             }
         }
     },
-    "version": 8
+    "version": 9
 }
