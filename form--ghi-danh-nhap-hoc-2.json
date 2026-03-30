@@ -1,61 +1,115 @@
 {
-        title: "GHI DANH NHẬP HỌC",
-        formId: "default_ghi_danh_nhap_hoc",
-        form: {
-          id: 'default_ghi_danh_nhap_hoc',
-          title: 'Ghi Danh Nhập Học 2',
-          fields: [
-            { id: 'field_1', name: 'Họ và Tên', type: 'short_answer', required: true, placeholder: 'Nhập họ và tên' },
-            { id: 'field_2', name: 'Pháp Danh', type: 'short_answer', placeholder: 'Nhập pháp danh' },
-            { id: 'field_3', name: 'Ngày Sinh', type: 'short_answer', placeholder: 'dd/mm/yyyy', helpText: 'Định dạng: dd/mm/yyyy' },
-            { id: 'field_4', name: 'Giới Tính', type: 'multiple_choice', options: ['Nam', 'Nữ'], required: true },
-            { id: 'field_5', name: 'Email', type: 'short_answer', required: true, placeholder: 'example@email.com', validation: { mode: 'email' } },
-            { id: 'field_6', name: 'Số Điện Thoại', type: 'short_answer', required: true, placeholder: '0xxx xxx xxx' },
-            { id: 'field_7', name: 'Chương Trình Học', type: 'dropdown', options: ['Sơ Cấp', 'Trung Cấp', 'Cao Đẳng'], required: true },
-            { id: 'field_8', name: 'Hình Thức Tham Gia', type: 'dropdown', options: ['Trực Tiếp', 'Trực Tuyến'], required: true }
-          ]
-        },
-        desktopImage: "https://ik.imagekit.io/dloitl7fd8/image%2025.png",
-
-        fields: {
-          fullName: {
-            label: "Tên tên",
-            placeholder: "Nhập tên của bạn"
-          },
-          dharmaName: {
-            label: "Pháp danh",
-            placeholder: "Nhập Pháp danh của bạn"
-          },
-          birthDate: {
-            label: "Ngày, tháng, năm sinh",
-            placeholder: "dd/mm/yyyy"
-          },
-          gender: {
-            label: "Giới tính",
-            male: "Nam",
-            female: "Nữ"
-          },
-          email: {
-            label: "Email",
-            placeholder: "abcde@gmail.com"
-          },
-          phone: {
-            label: "Điện thoại",
-            placeholder: "123 xxx xxx xxx"
-          },
-          program: {
-            label: "Chương trình ghi danh",
-            options: [
-              { id: "p1", label: "Sơ trung đẳng Phật học" }
-            ]
-          },
-          attendance: {
-            label: "Hình thức tham dự",
-            options: [
-              { id: "a1", label: "Học tại lớp" }
-            ]
-          }
-        },
-
-        submitLabel: "GHI DANH NGAY"
+  "title": "GHI DANH NHẬP HỌC",
+  "formId": "default_ghi_danh_nhap_hoc",
+  "form": {
+    "id": "default_ghi_danh_nhap_hoc",
+    "title": "Ghi Danh Nhập Học 2",
+    "fields": [
+      {
+        "id": "field_1",
+        "name": "Họ và Tên",
+        "type": "short_answer",
+        "required": true,
+        "placeholder": "Nhập họ và tên"
+      },
+      {
+        "id": "field_2",
+        "name": "Pháp Danh",
+        "type": "short_answer",
+        "placeholder": "Nhập pháp danh"
+      },
+      {
+        "id": "field_3",
+        "name": "Ngày Sinh",
+        "type": "short_answer",
+        "placeholder": "dd/mm/yyyy",
+        "helpText": "Định dạng: dd/mm/yyyy"
+      },
+      {
+        "id": "field_4",
+        "name": "Giới Tính",
+        "type": "multiple_choice",
+        "options": ["Nam", "Nữ"],
+        "required": true
+      },
+      {
+        "id": "field_5",
+        "name": "Email",
+        "type": "short_answer",
+        "required": true,
+        "placeholder": "example@email.com",
+        "validation": {
+          "mode": "email"
+        }
+      },
+      {
+        "id": "field_6",
+        "name": "Số Điện Thoại",
+        "type": "short_answer",
+        "required": true,
+        "placeholder": "0xxx xxx xxx"
+      },
+      {
+        "id": "field_7",
+        "name": "Chương Trình Học",
+        "type": "dropdown",
+        "options": ["Sơ Cấp", "Trung Cấp", "Cao Đẳng"],
+        "required": true
+      },
+      {
+        "id": "field_8",
+        "name": "Hình Thức Tham Gia",
+        "type": "dropdown",
+        "options": ["Trực Tiếp", "Trực Tuyến"],
+        "required": true
       }
+    ]
+  },
+  "desktopImage": "https://ik.imagekit.io/dloitl7fd8/image%2025.png",
+  "fields": {
+    "fullName": {
+      "label": "Tên tên",
+      "placeholder": "Nhập tên của bạn"
+    },
+    "dharmaName": {
+      "label": "Pháp danh",
+      "placeholder": "Nhập Pháp danh của bạn"
+    },
+    "birthDate": {
+      "label": "Ngày, tháng, năm sinh",
+      "placeholder": "dd/mm/yyyy"
+    },
+    "gender": {
+      "label": "Giới tính",
+      "male": "Nam",
+      "female": "Nữ"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "abcde@gmail.com"
+    },
+    "phone": {
+      "label": "Điện thoại",
+      "placeholder": "123 xxx xxx xxx"
+    },
+    "program": {
+      "label": "Chương trình ghi danh",
+      "options": [
+        {
+          "id": "p1",
+          "label": "Sơ trung đẳng Phật học"
+        }
+      ]
+    },
+    "attendance": {
+      "label": "Hình thức tham dự",
+      "options": [
+        {
+          "id": "a1",
+          "label": "Học tại lớp"
+        }
+      ]
+    }
+  },
+  "submitLabel": "GHI DANH NGAY"
+}
