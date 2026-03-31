@@ -61,10 +61,6 @@
   },
   "desktopImage": "https://ik.imagekit.io/dloitl7fd8/image%2025.png",
   "fields": {
-    "fullName": {
-      "label": "Tên tên",
-      "placeholder": "Nhập tên của bạn"
-    },
     "dharmaName": {
       "label": "Pháp danh",
       "placeholder": "Nhập Pháp danh của bạn"
