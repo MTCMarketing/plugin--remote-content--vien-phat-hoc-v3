@@ -5,7 +5,13 @@
     "id": "default_ghi_danh_nhap_hoc",
     "title": "Ghi Danh Nhập Học 2",
     "fields": [
-
+      {
+        "id": "field_1",
+        "name": "Họ và Tên",
+        "type": "short_answer",
+        "required": true,
+        "placeholder": "Nhập họ và tên"
+      },
       {
         "id": "field_2",
         "name": "Pháp Danh",
