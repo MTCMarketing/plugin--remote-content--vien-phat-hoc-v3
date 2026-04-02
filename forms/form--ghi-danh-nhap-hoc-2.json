@@ -9,6 +9,7 @@
                 "id": "field_1",
                 "format" : "text",
                 "name": "Họ và Tên",
+                "mapping" : "name",
                 "type": "short_answer",
                 "required": true,
                 "placeholder": "Nhập họ và tên"
@@ -40,11 +41,12 @@
                 "required": true
             },
             {
-                "id": "email",
+                "id": "field_5",
                 "name": "email",
                 "format" : "email",
                 "type": "short_answer",
                 "required": true,
+                "mapping" : "email",
                 "placeholder": "example@email.com",
                 "validation": {
                     "mode": "email"
