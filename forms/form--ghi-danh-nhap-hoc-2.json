@@ -85,7 +85,6 @@
             }
         ]
     },
-    "desktopImage": "https://ik.imagekit.io/dloitl7fd8/image%2025.png",
     "fields": {
         "field_1": {
             "label": "Tên tên",
@@ -130,6 +129,5 @@
                 }
             ]
         }
-    },
-    "submitLabel": "GHI DANH NGAY"
+    }
 }
