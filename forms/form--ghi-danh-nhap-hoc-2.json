@@ -6,8 +6,8 @@
         "title": "Ghi Danh Nhập Học 2",
         "fields": [
             {
-                "id": "email",
-                "format" : "email",
+                "id": "field_1",
+                "format" : "text",
                 "name": "Họ và Tên",
                 "type": "short_answer",
                 "required": true,
@@ -40,9 +40,9 @@
                 "required": true
             },
             {
-                "id": "field_5",
-                "name": "Email",
-                "format" : "text",
+                "id": "email",
+                "name": "email",
+                "format" : "email",
                 "type": "short_answer",
                 "required": true,
                 "placeholder": "example@email.com",
