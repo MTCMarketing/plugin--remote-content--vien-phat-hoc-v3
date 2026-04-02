@@ -91,28 +91,28 @@
             "label": "Tên tên",
             "placeholder": "Nhập tên của bạn"
         },
-        "dharmaName": {
+        "field_2": {
             "label": "Pháp danh",
             "placeholder": "Nhập Pháp danh của bạn"
         },
-        "birthDate": {
+        "field_3": {
             "label": "Ngày, tháng, năm sinh",
             "placeholder": "dd/mm/yyyy"
         },
-        "gender": {
+        "field_4": {
             "label": "Giới tính",
             "male": "Nam",
             "female": "Nữ"
         },
-        "email": {
+        "field_5": {
             "label": "Email",
             "placeholder": "abcde@gmail.com"
         },
-        "phone": {
+        "field_6": {
             "label": "Điện thoại",
             "placeholder": "123 xxx xxx xxx"
         },
-        "program": {
+        "field_7": {
             "label": "Chương trình ghi danh",
             "options": [
                 {
@@ -121,7 +121,7 @@
                 }
             ]
         },
-        "attendance": {
+        "field_8": {
             "label": "Hình thức tham dự",
             "options": [
                 {
