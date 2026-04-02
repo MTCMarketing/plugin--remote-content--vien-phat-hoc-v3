@@ -87,7 +87,7 @@
     },
     "desktopImage": "https://ik.imagekit.io/dloitl7fd8/image%2025.png",
     "fields": {
-        "fullName": {
+        "field_1": {
             "label": "Tên tên",
             "placeholder": "Nhập tên của bạn"
         },
