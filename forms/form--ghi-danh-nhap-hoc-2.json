@@ -6,7 +6,7 @@
         "title": "Ghi Danh Nhập Học 2",
         "fields": [
             {
-                "id": "field_1",
+                "id": "email",
                 "format" : "email",
                 "name": "Họ và Tên",
                 "type": "short_answer",
