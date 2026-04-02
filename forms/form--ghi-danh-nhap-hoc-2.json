@@ -7,6 +7,7 @@
         "fields": [
             {
                 "id": "field_1",
+                "format" : "email",
                 "name": "Họ và Tên",
                 "type": "short_answer",
                 "required": true,
@@ -14,12 +15,14 @@
             },
             {
                 "id": "field_2",
+                "format" : "text",
                 "name": "Pháp Danh",
                 "type": "short_answer",
                 "placeholder": "Nhập pháp danh"
             },
             {
                 "id": "field_3",
+                "format" : "date",
                 "name": "Ngày Sinh",
                 "type": "short_answer",
                 "placeholder": "dd/mm/yyyy",
@@ -27,6 +30,7 @@
             },
             {
                 "id": "field_4",
+                "format" : "text",
                 "name": "Giới Tính",
                 "type": "multiple_choice",
                 "options": [
@@ -38,6 +42,7 @@
             {
                 "id": "field_5",
                 "name": "Email",
+                "format" : "text",
                 "type": "short_answer",
                 "required": true,
                 "placeholder": "example@email.com",
@@ -47,6 +52,7 @@
             },
             {
                 "id": "field_6",
+                "format" : "phone",
                 "name": "Số Điện Thoại",
                 "type": "short_answer",
                 "required": true,
@@ -54,6 +60,7 @@
             },
             {
                 "id": "field_7",
+                "format" : "text",
                 "name": "Chương Trình Học",
                 "type": "dropdown",
                 "options": [
@@ -65,6 +72,7 @@
             },
             {
                 "id": "field_8",
+                "format" : "text",
                 "name": "Hình Thức Tham Gia",
                 "type": "dropdown",
                 "options": [
