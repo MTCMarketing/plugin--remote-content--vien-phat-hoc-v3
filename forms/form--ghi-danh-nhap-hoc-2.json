@@ -116,7 +116,7 @@
             "label": "Chương trình ghi danh",
             "options": [
                 {
-                    "id": "p1",
+                  
                     "label": "Sơ trung đẳng Phật học"
                 }
             ]
@@ -125,7 +125,7 @@
             "label": "Hình thức tham dự",
             "options": [
                 {
-                    "id": "a1",
+                   
                     "label": "Học tại lớp"
                 }
             ]
