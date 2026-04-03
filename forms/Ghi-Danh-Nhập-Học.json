@@ -84,21 +84,6 @@
       }
     ]
   },
-  "settings": {
-    "submit": "email",
-    "emailBody": "Hello {{name}} I hope this works!",
-    "emailSubject": "Hello {{name}} I hope this works!",
-    "emailTokenMap": {
-      "field_0": "name",
-      "field_1": "pháp danh",
-      "field_2": "ngày sinh",
-      "field_3": "giới tính",
-      "field_4": "email",
-      "field_5": "số điện thoại",
-      "field_6": "chương trình học",
-      "field_7": "hình thức tham gia"
-    },
-    "successMessage": "",
-    "emailTemplateId": "form--ghi-danh-nhap-hoc-2"
+    "successMessage": "Thank you!"
   }
 }
