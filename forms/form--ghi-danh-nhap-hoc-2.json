@@ -42,7 +42,7 @@
             },
             {
                 "id": "field_5",
-                "name": "email",
+                "name": "Email",
                 "format" : "email",
                 "type": "email_address",
                 "required": true,
