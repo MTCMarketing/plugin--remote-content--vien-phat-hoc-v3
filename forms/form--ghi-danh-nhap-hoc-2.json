@@ -1,6 +1,4 @@
 {
-    "title": "GHI DANH NHẬP HỌC",
-    "formId": "default_ghi_danh_nhap_hoc",
     "form": {
         "id": "default_ghi_danh_nhap_hoc",
         "title": "Ghi Danh Nhập Học 2",
