@@ -1,5 +1,6 @@
 {
     "form": {
+        "submit": "email",
         "id": "default_ghi_danh_nhap_hoc",
         "title": "Ghi Danh Nhập Học 2",
         "fields": [
