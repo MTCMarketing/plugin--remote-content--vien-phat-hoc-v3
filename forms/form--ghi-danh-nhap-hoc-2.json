@@ -61,7 +61,7 @@
                 "placeholder": "0xxx xxx xxx"
             },
             {
-                "id": "field_7",
+                "id": "",
                 "format" : "text",
                 "name": "Chương Trình Học",
                 "type": "dropdown",
@@ -84,50 +84,5 @@
                 "required": true
             }
         ]
-    },
-    "fields": {
-        "field_1": {
-            "label": "Tên tên",
-            "placeholder": "Nhập tên của bạn"
-        },
-        "field_2": {
-            "label": "Pháp danh",
-            "placeholder": "Nhập Pháp danh của bạn"
-        },
-        "field_3": {
-            "label": "Ngày, tháng, năm sinh",
-            "placeholder": "dd/mm/yyyy"
-        },
-        "field_4": {
-            "label": "Giới tính",
-            "male": "Nam",
-            "female": "Nữ"
-        },
-        "field_5": {
-            "label": "Email",
-            "placeholder": "abcde@gmail.com"
-        },
-        "field_6": {
-            "label": "Điện thoại",
-            "placeholder": "123 xxx xxx xxx"
-        },
-        "field_7": {
-            "label": "Chương trình ghi danh",
-            "options": [
-                {
-                  
-                    "label": "Sơ trung đẳng Phật học"
-                }
-            ]
-        },
-        "field_8": {
-            "label": "Hình thức tham dự",
-            "options": [
-                {
-                   
-                    "label": "Học tại lớp"
-                }
-            ]
-        }
     }
 }
