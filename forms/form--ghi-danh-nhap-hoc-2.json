@@ -6,7 +6,7 @@
         "title": "Ghi Danh Nhập Học 2",
         "fields": [
             {
-                "id": "field_1",
+           
                 "format" : "text",
                 "name": "Họ và Tên",
                 "mapping" : "name",
@@ -15,14 +15,14 @@
                 "placeholder": "Nhập họ và tên"
             },
             {
-                "id": "field_2",
+          
                 "format" : "text",
                 "name": "Pháp Danh",
                 "type": "short_answer",
                 "placeholder": "Nhập pháp danh"
             },
             {
-                "id": "field_3",
+            
                 "format" : "date",
                 "name": "Ngày Sinh",
                 "type": "short_answer",
@@ -30,7 +30,7 @@
                 "helpText": "Định dạng: dd/mm/yyyy"
             },
             {
-                "id": "field_4",
+             
                 "format" : "text",
                 "name": "Giới Tính",
                 "type": "multiple_choice",
@@ -41,7 +41,7 @@
                 "required": true
             },
             {
-                "id": "field_5",
+              
                 "name": "Email",
                 "format" : "email",
                 "type": "email_address",
@@ -53,15 +53,15 @@
                 }
             },
             {
-                "id": "field_6",
+             
                 "format" : "phone",
                 "name": "Số Điện Thoại",
-                "type": "short_answer",
+                "type": "phone_number",
                 "required": true,
                 "placeholder": "0xxx xxx xxx"
             },
             {
-                "id": "",
+            
                 "format" : "text",
                 "name": "Chương Trình Học",
                 "type": "dropdown",
@@ -73,7 +73,7 @@
                 "required": true
             },
             {
-                "id": "field_8",
+            
                 "format" : "text",
                 "name": "Hình Thức Tham Gia",
                 "type": "dropdown",
