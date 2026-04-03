@@ -6,8 +6,6 @@
         "title": "Ghi Danh Nhập Học 2",
         "fields": [
             {
-           
-                "format" : "text",
                 "name": "Họ và Tên",
                 "mapping" : "name",
                 "type": "short_answer",
@@ -15,23 +13,17 @@
                 "placeholder": "Nhập họ và tên"
             },
             {
-          
-                "format" : "text",
                 "name": "Pháp Danh",
                 "type": "short_answer",
                 "placeholder": "Nhập pháp danh"
             },
             {
-            
-                "format" : "date",
                 "name": "Ngày Sinh",
                 "type": "date",
                 "placeholder": "dd/mm/yyyy",
                 "helpText": "Định dạng: dd/mm/yyyy"
             },
             {
-             
-                "format" : "text",
                 "name": "Giới Tính",
                 "type": "multiple_choice",
                 "options": [
@@ -43,14 +35,10 @@
             {
               
                 "name": "Email",
-                "format" : "email",
                 "type": "email_address",
                 "required": true,
                 "mapping" : "email",
-                "placeholder": "example@email.com",
-                "validation": {
-                    "mode": "email"
-                }
+                "placeholder": "example@email.com"
             },
             {
              
@@ -58,7 +46,7 @@
                 "name": "Số Điện Thoại",
                 "type": "phone_number",
                 "required": true,
-                "placeholder": "0xxx xxx xxx"
+                "placeholder": "### ### ####"
             },
             {
             
