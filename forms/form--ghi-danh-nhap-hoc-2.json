@@ -44,7 +44,7 @@
                 "id": "field_5",
                 "name": "email",
                 "format" : "email",
-                "type": "short_answer",
+                "type": "email_address",
                 "required": true,
                 "mapping" : "email",
                 "placeholder": "example@email.com",
