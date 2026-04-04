@@ -1,6 +1,6 @@
 {
   "forms.json": {
-    "Chương-trình-Thiền": "Chương-trình-Thiền"
+    "Chương-trình-Thiền": "Chương-trình-Thiền2"
   },
   "page": {
     "form": {
@@ -17,7 +17,7 @@
         },
         {
           "id": "field_1",
-          "name": "Pháp Danh",
+          "name": "Pháp Danh2",
           "type": "short_answer",
           "required": false,
           "placeholder": "Nhập pháp danh"
