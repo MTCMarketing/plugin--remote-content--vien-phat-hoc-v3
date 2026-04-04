@@ -9,10 +9,9 @@
       "fields": [
         {
           "id": "field_0",
-          "name": "Họ và Tên",
+          "name": "Họ và Tên!",
           "type": "short_answer",
           "mapping": "name",
-          "helpText": "",
           "required": true,
           "placeholder": "Nhập họ và tên"
         },
@@ -20,7 +19,6 @@
           "id": "field_1",
           "name": "Pháp Danh",
           "type": "short_answer",
-          "helpText": "",
           "required": false,
           "placeholder": "Nhập pháp danh"
         },
@@ -40,16 +38,13 @@
             "Nam",
             "Nữ"
           ],
-          "helpText": "",
-          "required": true,
-          "placeholder": ""
+          "required": true
         },
         {
           "id": "field_4",
           "name": "Email",
           "type": "email_address",
           "mapping": "email",
-          "helpText": "",
           "required": true,
           "placeholder": "example@email.com"
         },
@@ -57,7 +52,6 @@
           "id": "field_5",
           "name": "Số Điện Thoại",
           "type": "phone_number",
-          "helpText": "",
           "required": true,
           "placeholder": "### ### ####"
         },
@@ -70,9 +64,7 @@
             "Trung Cấp",
             "Cao Đẳng"
           ],
-          "helpText": "",
-          "required": true,
-          "placeholder": ""
+          "required": true
         },
         {
           "id": "field_7",
@@ -82,9 +74,7 @@
             "Trực Tiếp",
             "Trực Tuyến"
           ],
-          "helpText": "",
-          "required": true,
-          "placeholder": ""
+          "required": true
         }
       ]
     },
