@@ -9,7 +9,7 @@
       "fields": [
         {
           "id": "field_0",
-          "name": "Họ và Tên!",
+          "name": "Họ và Tên",
           "type": "short_answer",
           "mapping": "name",
           "required": true,
