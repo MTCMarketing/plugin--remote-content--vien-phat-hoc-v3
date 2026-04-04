@@ -1,6 +1,7 @@
 {
   "form": {
     "id": "Ghi-Danh-Nhập-Học",
+    "page" : "chuong-trinh-thien",
     "title": "Ghi Danh Nhập Học",
     "fields": [
       {
