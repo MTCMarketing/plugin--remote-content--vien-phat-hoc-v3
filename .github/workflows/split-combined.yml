@@ -1,0 +1,61 @@
+name: Split Combined JSON
+
+on:
+  push:
+    paths:
+      - 'forms/combined.json'
+    branches:
+      - main
+
+jobs:
+  split-json:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Split combined.json correctly
+        run: |
+          COMBINED_FILE="forms/combined.json"
+          MERGED_FILE="forms/forms.json"
+          mkdir -p forms
+
+          node -e "
+            const fs = require('fs');
+            const path = require('path');
+
+            const combined = JSON.parse(fs.readFileSync('$COMBINED_FILE', 'utf-8'));
+
+            // --- Merge into forms/forms.json ---
+            let merged = {};
+            if (fs.existsSync('$MERGED_FILE')) {
+              merged = JSON.parse(fs.readFileSync('$MERGED_FILE', 'utf-8'));
+            }
+
+            const mergedUpdated = { ...merged, ...combined };
+            fs.writeFileSync('$MERGED_FILE', JSON.stringify(mergedUpdated, null, 2), 'utf-8');
+            console.log('Updated', '$MERGED_FILE');
+
+            // --- Overwrite individual files ---
+            for (const [key, value] of Object.entries(combined)) {
+              const safeFileName = path.join('forms', key + '.json');
+              fs.writeFileSync(safeFileName, JSON.stringify(value, null, 2), 'utf-8');
+              console.log('Written', safeFileName);
+            }
+          "
+
+      - name: Commit updated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add forms/forms.json forms/*.json
+          git commit -m "chore: merge combined.json and split individual forms [ci skip]" || echo "No changes to commit"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
