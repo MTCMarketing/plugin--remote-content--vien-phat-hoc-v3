@@ -288,7 +288,95 @@
         },
         {
           "body": "",
-          "category": "Kinh Lăng Già Yếu Lược",
+          "category": "Kinh Lăng Già Yếu Lược",{
+  "form": {
+    "id": "Ghi-Danh-Nhập-Học",
+    "page" : "chuong-trinh-thien",
+    "title": "Ghi Danh Nhập Học",
+    "fields": [
+      {
+        "id": "field_0",
+        "name": "Họ và Tên",
+        "type": "short_answer",
+        "mapping": "name",
+        "helpText": "",
+        "required": true,
+        "placeholder": "Nhập họ và tên"
+      },
+      {
+        "id": "field_1",
+        "name": "Pháp Danh",
+        "type": "short_answer",
+        "helpText": "",
+        "required": false,
+        "placeholder": "Nhập pháp danh"
+      },
+      {
+        "id": "field_2",
+        "name": "Ngày Sinh",
+        "type": "date",
+        "helpText": "Định dạng: dd/mm/yyyy",
+        "required": false,
+        "placeholder": "dd/mm/yyyy"
+      },
+      {
+        "id": "field_3",
+        "name": "Giới Tính",
+        "type": "multiple_choice",
+        "options": [
+          "Nam",
+          "Nữ"
+        ],
+        "helpText": "",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "id": "field_4",
+        "name": "Email",
+        "type": "email_address",
+        "mapping": "email",
+        "helpText": "",
+        "required": true,
+        "placeholder": "example@email.com"
+      },
+      {
+        "id": "field_5",
+        "name": "Số Điện Thoại",
+        "type": "phone_number",
+        "helpText": "",
+        "required": true,
+        "placeholder": "### ### ####"
+      },
+      {
+        "id": "field_6",
+        "name": "Chương Trình Học",
+        "type": "dropdown",
+        "options": [
+          "Sơ Cấp",
+          "Trung Cấp",
+          "Cao Đẳng"
+        ],
+        "helpText": "",
+        "required": true,
+        "placeholder": ""
+      },
+      {
+        "id": "field_7",
+        "name": "Hình Thức Tham Gia",
+        "type": "dropdown",
+        "options": [
+          "Trực Tiếp",
+          "Trực Tuyến"
+        ],
+        "helpText": "",
+        "required": true,
+        "placeholder": ""
+      }
+    ]
+  },
+  "successMessage": "Thank you!"
+}
           "date": "03/08/2017",
           "excerpt": "",
           "id": "edu-14",
@@ -1849,7 +1937,7 @@
                 "label": "Chương trình học và thời khóa biểu ›"
               },
               {
-                "href": "/so-trung-dang-phat-hoc#NIÊN-KHÓA-2025-2028",
+                "href": "/so-trung-dang-phat-hoc#nien-khoa-2025-2028",
                 "label": "Niên khóa 2025 – 2028 ›"
               }
             ],
