@@ -4094,8 +4094,8 @@
               "type": "dropdown"
             }
           ],
-          "id": "default_ghi_danh_thien",
-          "title": "Ghi Danh Thiền 3"
+          "id": "chuong-trinh-thien",
+          "title": "Ghi Danh Thiền"
         },
         "formId": "Ghi Danh Nhập Học",
         "submitLabel": "GHI DANH NGAY",
@@ -4778,5 +4778,5 @@
       }
     }
   },
-  "version": 14
+  "version": 15
 }
