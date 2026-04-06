@@ -1,5 +1,8 @@
 {
   "form": {
+    "source" : "remote",
+    "version" : 1,
+    "submit" : "email",
     "id": "Ghi-Danh-Nhập-Học",
     "page" : "chuong-trinh-thien",
     "title": "Ghi Danh Nhập Học",
