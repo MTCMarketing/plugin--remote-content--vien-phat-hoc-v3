@@ -6,6 +6,7 @@
     "id": "Ghi-Danh-Nhập-Học",
     "page" : "chuong-trinh-thien",
     "title": "Ghi Danh Nhập Học",
+    "successMessage": "Thank you!",
     "fields": [
       {
         "id": "field_0",
@@ -87,6 +88,6 @@
         "placeholder": ""
       }
     ]
-  },
-  "successMessage": "Thank you!"
+  }
+
 }
