@@ -77,9 +77,16 @@
           "label": "Chương trình Đào tạo"
         },
         {
+          "dropdownItems": [
+            {
+              "href": "/thong-bao-moi",
+              "id": "dropdown-1775902251107",
+              "label": "Thông báo mới"
+            }
+          ],
           "href": "/#HỘ-TRÌ-CHÁNH-PHÁP",
           "id": "dharma",
-          "isDropdown": false,
+          "isDropdown": true,
           "label": "Hộ trì Chánh pháp"
         },
         {
@@ -4778,5 +4785,5 @@
       }
     }
   },
-  "version": 16
+  "version": 18
 }
