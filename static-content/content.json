@@ -56,17 +56,17 @@
         {
           "dropdownItems": [
             {
-              "href": "/Sơ-trung-đẳng-Phật-học",
+              "href": "/so-trung-dang-phat-hoc",
               "id": "program1",
               "label": "Sơ trung đẳng Phật học"
             },
             {
-              "href": "/Cao-đẳng-Phật-học",
+              "href": "/cao-dang-phat-hoc",
               "id": "program2",
               "label": "Cao đẳng Phật học"
             },
             {
-              "href": "/Chuyên-khoa-A-tỳ-đàm",
+              "href": "/chuyen-khoa-a-ty-dam",
               "id": "program3",
               "label": "Chuyên khoa A tỳ đàm"
             }
@@ -4785,5 +4785,5 @@
       }
     }
   },
-  "version": 18
+  "version": 20
 }
